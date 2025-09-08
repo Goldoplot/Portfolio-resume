@@ -13,7 +13,7 @@ export const profile = {
 export const skills = {
     frontend: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Vue.js"],
     backend: ["PHP", "Node.js", "Ruby", "MySQL", "MongoDB", "REST API"],
-    tools: ["Git", "Docker", "VS Code", "Figma", "PHPstorm"],
+    tools: ["Git", "Docker", "AI Claude and ChatGPT", "Figma", "PHPstorm"],
     languages: ["French", "English", "Spanish"]
 };
 
@@ -21,11 +21,10 @@ export const projects = [
     {
         id: 1,
         title: "E-Commerce Platform",
-        description: "Complete e-commerce platform with cart,payment system, user page." +
-            " admin dashboard.",
+        description: "Complete e-commerce platform with cart,payment system, user page and admin dashboard.",
         technologies: ["PHP","MYSQL","Bootstrap","JavaScript "],
         image: "/img/ecommerce.jpg",
-        github: "https://github.com/votrenom/ecommerce",
+        github: "https://github.com/Goldoplot/E-commerce-website",
         demo: "https://demo-ecommerce.example.com",
         status: "In process"
     },
@@ -37,7 +36,7 @@ export const projects = [
         image: "/img/blog.jpg",
         github: "https://github.com/votrenom/blog",
         demo: "https://blog.example.com",
-        status: "Terminé"
+        status: "Deployed"
     },
     {
         id: 3,
@@ -59,6 +58,12 @@ export const experience = [
         description: ""
     },
     {
+        title: "CS 50's Introduction to Computer Science",
+        company: "Harvard University",
+        period: "2022",
+        description: "An entry-level course taught by David J. Malan that introduces students to the art of programming and the basics of computer science. The course covers foundational topics such as algorithms, data structures, software engineering, and web development, using languages like C, Python, SQL, and JavaScript."
+    },
+    {
         title: "",
         company: "",
         period: "",
@@ -68,7 +73,7 @@ export const experience = [
 
 export const education = [
     {
-        degree: "Bachelor in web developement",
+        degree: "Bachelor in web development",
         school: "LeWagon",
         period: "2023 - 2024",
         description: "Le Wagon’s Web Development Bootcamp is an intensive, immersive full-stack training program that combines web development with AI integration. It's designed to prepare learners for professional careers by teaching them how to build and deploy real-world applications. "
@@ -155,5 +160,15 @@ export const timelineEvents = [
         details: "This experience allowed me to immerse myself in a new culture and language, enhancing my adaptability and cross-cultural communication skills, while working in various hospitality roles.",
         icon: "🎯",
         color: "bg-indigo-500"
+    },
+    {
+        id: 8,
+        date: "2024 / 2025",
+        title: "Botanic",
+        type: "work",
+        description: "Sales associate in a major gardening retail chain",
+        details: "Provided customer service, managed inventory, and assisted in visual merchandising. Gained experience in retail operations and developed strong communication and sales skills.",
+        icon: "🚀",
+        color: "bg-red-500"
     }
 ];
