@@ -30,12 +30,12 @@ export const projects = [
     },
     {
         id: 2,
-        title: "Connected Refrigerator",
+        title: "Connected Refrigerator Kouakou Ziner",
         description: "Platform to manage your fridge inventory and reduce food waste",
         technologies: ["Ruby on Rails", "ActiveRecord", "MySQL", "Bootstrap", "JavaScript"],
         image: "/img/blog.jpg",
-        github: "https://github.com/votrenom/blog",
-        demo: "https://blog.example.com",
+        github: "https://github.com/Goldoplot/kouakou_ziner",
+        demo: "https://fridge.tuannelet.com",
         status: "Deployed"
     },
     {
