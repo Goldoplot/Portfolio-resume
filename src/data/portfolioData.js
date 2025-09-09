@@ -25,7 +25,7 @@ export const projects = [
         technologies: ["PHP","MYSQL","Bootstrap","JavaScript "],
         image: "/img/ecommerce.jpg",
         github: "https://github.com/Goldoplot/E-commerce-website",
-        demo: "https://demo-ecommerce.example.com",
+        demo: "",
         status: "In process"
     },
     {
@@ -33,7 +33,7 @@ export const projects = [
         title: "Connected Refrigerator Kouakou Ziner",
         description: "Platform to manage your fridge inventory and reduce food waste",
         technologies: ["Ruby on Rails", "ActiveRecord", "MySQL", "Bootstrap", "JavaScript"],
-        image: "/img/blog.jpg",
+        image: "/img/fridge.jpg",
         github: "https://github.com/Goldoplot/kouakou_ziner",
         demo: "https://fridge.tuannelet.com",
         status: "Deployed"
@@ -43,32 +43,44 @@ export const projects = [
         title: "API REST TaskManager",
         description: "Full-featured API for task management with JWT authentication and Swagger documentation",
         technologies: ["Node.js", "Express", "MongoDB", "JWT"],
-        image: "/img/taskmanager.jpg",
-        github: "https://github.com/votrenom/taskmanager-api",
-        demo: "https://api.taskmanager.example.com/docs",
-        status: "Terminé"
+        image: "/img/api.jpg",
+        github: "",
+        demo: "",
+        status: "In process"
+    },
+    {
+        id: 4,
+        title: "Real-time Chat Application",
+        description: "A web-based chat application that allows users to communicate in real-time with features like private messaging and group chats.",
+        technologies: ["Symfony", "Mercure protocol", "Vue.js"],
+        image: "/img/chat-application.jpg",
+        github: "",
+        demo: "",
+        status: "In process"
     }
+
 ];
 
 export const experience = [
     {
-        title: "",
-        company: "",
-        period: "",
-        description: ""
+        title: "The Odin Project",
+        company: "The Odin Project",
+        period: "2023 - Present",
+        description: "The Odin Project is a free, open-source curriculum that provides a comprehensive path to becoming a full-stack web developer. It covers HTML, CSS, JavaScript, Git, Node.js, databases, and more, with a strong emphasis on hands-on projects and real-world experience."
+    },
+    {
+        title: "W3schools tutorials",
+        company: "W3schools",
+        period: "2023 - Present",
+        description: "the world's largest web developer site. It provides tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and Bootstrap, covering most aspects of web programming."
     },
     {
         title: "CS 50's Introduction to Computer Science",
         company: "Harvard University",
         period: "2022",
         description: "An entry-level course taught by David J. Malan that introduces students to the art of programming and the basics of computer science. The course covers foundational topics such as algorithms, data structures, software engineering, and web development, using languages like C, Python, SQL, and JavaScript."
-    },
-    {
-        title: "",
-        company: "",
-        period: "",
-        description: ""
     }
+
 ];
 
 export const education = [

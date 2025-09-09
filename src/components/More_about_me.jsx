@@ -5,7 +5,7 @@ export default function More_about_me({timelineEvents}) {
     /* Mon Parcours - Timeline */
     return (
         <div className="space-y-8">
-            <h2 className="text-3xl font-bold text-white mb-8">Mon Parcours Professionnel</h2>
+            <h2 className="text-3xl font-bold text-white mb-8">My professional background</h2>
 
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
                 <div className="relative">

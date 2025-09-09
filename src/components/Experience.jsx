@@ -5,7 +5,7 @@ export default function Experience({ experience, education }) {
             <h2 className="text-3xl font-bold text-white mb-8">Experience & Education</h2>
 
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10">
-                <h3 className="text-2xl font-bold text-white mb-6">Professional Experience</h3>
+                <h3 className="text-2xl font-bold text-white mb-6">IT Experience</h3>
                 <div className="space-y-6">
                     {experience.map((exp, i) => (
                         <div key={i} className="border-l-2 border-blue-500 pl-6">
