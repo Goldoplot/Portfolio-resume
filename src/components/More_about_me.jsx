@@ -60,11 +60,11 @@ export default function More_about_me({timelineEvents}) {
                                           event.type === 'decision' ? 'bg-yellow-500/20 text-yellow-300' :
                                               'bg-red-500/20 text-red-300'
                           }`}>
-                            {event.type === 'education' ? '🎓 Formation' :
-                                event.type === 'work' ? '💼 Travail' :
-                                    event.type === 'project' ? '🛠️ Projet' :
-                                        event.type === 'decision' ? '💡 Décision' :
-                                            '🎯 Objectif'}
+                            {event.type === 'education' ? '🎓 Education' :
+                                event.type === 'work' ? '💼 Work' :
+                                    event.type === 'project' ? '🛠️ Project' :
+                                        event.type === 'decision' ? '💡 Self improvement' :
+                                            '🎯 Goal'}
                           </span>
 
                                     </div>
