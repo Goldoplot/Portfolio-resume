@@ -6,7 +6,7 @@ export default function About() {
             <div className="text-gray-300 text-lg leading-relaxed space-y-4">
                 <p>
                     I’m a junior web developer with a background in sport sciences, and in 2023 I decided to completely change paths and dive into IT.
-                    It was a big shift, but one that felt natural.
+                    It was a big shift, but one that felt natural and i thank LeWagon bootcamp in 2024 for giving me this opportunity.
                     I’ve always been drawn to problem-solving, curiosity, and the satisfaction of finding solutions, and coding turned out to be the perfect place for all of that.
                 </p>
                 <p>
@@ -24,7 +24,7 @@ export default function About() {
                     I enjoy exploring new technologies, trying out best practices, and figuring out how to make things not only work, but work well.
                 </p>
                 <p>
-                    My goal is simple: to keep growing as a developer, contribute to meaningful projects, and collaborate with people who value creativity, efficiency, and technical excellence.
+                    My goal is simple: to keep growing as a backend developer, contribute to meaningful projects, and collaborate with people who value creativity, efficiency, and technical excellence.
                     I see coding as a journey, and I’m excited to keep pushing forward, learning more, and solving new challenges along the way.
                 </p>
             </div>

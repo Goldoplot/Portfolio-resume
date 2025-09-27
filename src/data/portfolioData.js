@@ -11,9 +11,9 @@ export const profile = {
 };
 
 export const skills = {
-    frontend: ["React", "JavaScript", "HTML5", "CSS3", "Tailwind CSS", "Vue.js"],
-    backend: ["PHP", "Node.js", "Ruby", "MySQL", "MongoDB", "REST API"],
-    tools: ["Git", "Docker", "AI Claude and ChatGPT", "Figma", "PHPstorm"],
+    frontend: ["JavaScript", "HTML", "CSS"],
+    backend: ["PHP", "Ruby", "MySQL"],
+    tools: ["Git", "Docker", "AI Claude", "Figma"],
     languages: ["French", "English", "Spanish"]
 };
 
@@ -89,6 +89,12 @@ export const education = [
         school: "LeWagon",
         period: "2023 - 2024",
         description: "Le Wagon’s Web Development Bootcamp is an intensive, immersive full-stack training program that combines web development with AI integration. It's designed to prepare learners for professional careers by teaching them how to build and deploy real-world applications. "
+    },
+    {
+        degree: "Bachelor in sports sciences",
+        school: "University Paris Saclay",
+        period: "2010 - 2015",
+        description: "Comprehensive studies in anatomy, physiology, biomechanics, and nutrition. Gained practical experience through internships and projects focused on athletic performance and health promotion."
     }
 ];
 
@@ -175,6 +181,16 @@ export const timelineEvents = [
     },
     {
         id: 8,
+        date: "2023 /2024",
+        title: "LeWagon",
+        type: "education",
+        description: "Completed an intensive web development bootcamp",
+        details: "Acquired full-stack web development skills, including proficiency in HTML, CSS, JavaScript, Ruby on Rails, and database management. Developed problem-solving abilities and a strong foundation in software development principles.",
+        icon: "🎓",
+        color: "bg-blue-500"
+    },
+    {
+        id: 9,
         date: "2024 / 2025",
         title: "Botanic",
         type: "work",
