@@ -21,12 +21,12 @@ export const projects = [
     {
         id: 1,
         title: "E-Commerce Platform",
-        description: "Complete e-commerce platform with cart,payment system, user page and admin dashboard.",
-        technologies: ["PHP","MYSQL","Bootstrap","JavaScript "],
+        description: "Complete e-commerce platform with cart,(fake) payment system, user page and admin dashboard.",
+        technologies: ["PHP","MYSQL","Bootstrap","JavaScript","Docker","Railway"],
         image: "/img/ecommerce.jpg",
         github: "https://github.com/Goldoplot/E-commerce-website",
-        demo: "",
-        status: "In process"
+        demo: "https://eshop.tuannelet.com/",
+        status: "Deployed"
     },
     {
         id: 2,
