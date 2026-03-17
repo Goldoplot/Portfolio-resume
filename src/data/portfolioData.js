@@ -178,8 +178,8 @@ export const timelineEvents = [
         date: "2023 / 2025",
         title: "Botanic",
         type: "work",
-        description: "Sales associate in a major gardening retail chain",
-        details: "Provided customer service, managed inventory, and assisted in visual merchandising. Gained experience in retail operations and developed strong communication and sales skills.",
+        description: "Junior backend developer at Botanic, building and maintaining server-side applications and APIs",
+        details: "Design and develop backend features, maintain APIs, fix bugs, optimize performance, ensure data reliability, and collaborate with frontend developers and product teams to deliver scalable, efficient solutions.",
         icon: "🚀",
         color: "bg-red-500"
     }
