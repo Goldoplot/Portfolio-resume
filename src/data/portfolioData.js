@@ -22,21 +22,21 @@ export const projects = [
         id: 1,
         title: "E-Commerce Platform",
         description: "Complete e-commerce platform with cart,payment system, user page and admin dashboard.",
-        technologies: ["PHP","MYSQL","Bootstrap","JavaScript "],
+        technologies: ["PHP","MYSQL","Bootstrap","JavaScript", "Railway"],
         image: "/img/ecommerce.jpg",
         github: "https://github.com/Goldoplot/E-commerce-website",
         demo: "",
-        status: "Deployed with Railway"
+        status: "Deployed"
     },
     {
         id: 2,
         title: "Connected Refrigerator Kouakou Ziner",
         description: "Platform to manage your fridge inventory and reduce food waste",
-        technologies: ["Ruby on Rails", "ActiveRecord", "MySQL", "Bootstrap", "JavaScript"],
+        technologies: ["Ruby on Rails", "ActiveRecord", "MySQL", "Bootstrap", "JavaScript", "Heroku"],
         image: "/img/fridge.jpg",
         github: "https://github.com/Goldoplot/kouakou_ziner",
         demo: "https://fridge.tuannelet.com",
-        status: "Deployed with Heroku"
+        status: "Deployed"
     },
     {
         id: 3,
