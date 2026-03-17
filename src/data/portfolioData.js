@@ -26,7 +26,7 @@ export const projects = [
         image: "/img/ecommerce.jpg",
         github: "https://github.com/Goldoplot/E-commerce-website",
         demo: "",
-        status: "In process"
+        status: "Deployed with Railway"
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ export const projects = [
         image: "/img/fridge.jpg",
         github: "https://github.com/Goldoplot/kouakou_ziner",
         demo: "https://fridge.tuannelet.com",
-        status: "Deployed"
+        status: "Deployed with Heroku"
     },
     {
         id: 3,
