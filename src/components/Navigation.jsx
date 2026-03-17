@@ -4,8 +4,8 @@ export default function Navigation({ activeTab, setActiveTab }) {
         { id: 'about', label: 'About me' },
         { id: 'skills', label: 'Skills' },
         { id: 'projects', label: 'Projects' },
-        { id: 'experience', label: 'Experience' },
-        { id: 'more_about_me', label: 'More about me' }
+        { id: 'experience', label: 'Education' },
+        { id: 'more_about_me', label: 'Experience' }
     ];
 
     return (
