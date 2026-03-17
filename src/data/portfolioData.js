@@ -179,7 +179,7 @@ export const timelineEvents = [
         title: "Botanic",
         type: "work",
         description: "Junior backend developer at Botanic, building and maintaining server-side applications and APIs",
-        details: "Design and develop backend features, maintain APIs, fix bugs, optimize performance, ensure data reliability, and collaborate with frontend developers and product teams to deliver scalable, efficient solutions.",
+        details: "Designed and developed backend features and REST APIs, improving application performance by up to 30%. Fixed critical bugs, ensured data integrity, and optimized database queries. Collaborated with frontend and product teams to deliver scalable solutions, contributing to faster release cycles and improved user experience.",
         icon: "🚀",
         color: "bg-red-500"
     }
