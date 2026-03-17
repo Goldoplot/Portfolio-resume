@@ -87,7 +87,7 @@ export const education = [
     {
         degree: "Bachelor in web development",
         school: "LeWagon",
-        period: "2023 - 2024",
+        period: "2023",
         description: "Le Wagon’s Web Development Bootcamp is an intensive, immersive full-stack training program that combines web development with AI integration. It's designed to prepare learners for professional careers by teaching them how to build and deploy real-world applications. "
     }
 ];
@@ -175,7 +175,7 @@ export const timelineEvents = [
     },
     {
         id: 8,
-        date: "2024 / 2025",
+        date: "2023 / 2025",
         title: "Botanic",
         type: "work",
         description: "Sales associate in a major gardening retail chain",
