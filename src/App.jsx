@@ -15,7 +15,7 @@ export default function App() {
     const [activeTab, setActiveTab] = useState('about');
 
     return (
-        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-gray-100">
+        <div className="min-h-screen bg-gradient-to-br from-zinc-100 via-stone-50 to-slate-200">
             <Header profile={profile} />
             <Navigation activeTab={activeTab} setActiveTab={setActiveTab} />
             <main className="max-w-6xl mx-auto px-6 py-12">
