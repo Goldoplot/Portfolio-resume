@@ -26,7 +26,7 @@ export const projects = [
         image: "/img/ecommerce.jpg",
         github: "https://github.com/Goldoplot/E-commerce-website",
         demo: "",
-        status: "Deployed"
+        status: "Suspended"
     },
     {
         id: 2,
@@ -36,7 +36,7 @@ export const projects = [
         image: "/img/fridge.jpg",
         github: "https://github.com/Goldoplot/kouakou_ziner",
         demo: "https://fridge.tuannelet.com",
-        status: "Deployed"
+            status: "Suspended"
     },
     {
         id: 3,
@@ -94,7 +94,7 @@ export const education = [
 
 export const timelineEvents = [
     {
-        id: 7,
+        id: 2,
         date: "2012 / 2013",
         title: "Working Holiday Australia",
         type: "decision",
@@ -104,7 +104,7 @@ export const timelineEvents = [
         color: "bg-orange-500"
     },
     {
-        id: 2,
+        id: 1,
         date: "2010 / 2015",
         title: "Bachelor in sports sciences",
         type: "education",
@@ -114,7 +114,7 @@ export const timelineEvents = [
         color: "bg-blue-500"
     },
     {
-        id: 1,
+        id: 3,
         date: "2013 / 2015",
         title: "Groupement Technique des Hippodromes Parisiens",
         type: "work",
@@ -124,7 +124,7 @@ export const timelineEvents = [
         color: "bg-yellow-500"
     },
     {
-        id: 3,
+        id: 4,
         date: "2016 / 2017",
         title: "Working Holiday South Korea",
         type: "decision",
@@ -134,7 +134,7 @@ export const timelineEvents = [
         color: "bg-orange-500"
     },
      {
-        id: 4,
+        id: 5,
         date: "2017 / 2020",
         title: "UrbanAquaFitness",
         type: "work",
@@ -144,7 +144,7 @@ export const timelineEvents = [
         color: "bg-purple-500"
     },
         {
-        id: 5,
+        id: 6,
         date: "2020 / 2021",
         title: "France Travail",
         type: "work",
@@ -154,7 +154,7 @@ export const timelineEvents = [
         color: "bg-green-500"
     },
     {
-        id: 6,
+        id: 7,
         date: "2022 / 2023",
         title: "Working Holiday Argentina",
         type: "decision",
@@ -164,7 +164,7 @@ export const timelineEvents = [
         color: "bg-indigo-500"
     },
     {
-        id: 7,
+        id: 8,
         date: "2024 / 2024",
         title: "Bouygues",
         type: "work",

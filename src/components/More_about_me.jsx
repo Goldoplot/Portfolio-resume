@@ -14,7 +14,14 @@ export default function More_about_me({timelineEvents}) {
 
                     {/* Événements de la timeline */}
                     <div className="space-y-12">
-                        {timelineEvents.map((event, index) => (
+                        {[...timelineEvents]
+                            .sort((a, b) => {
+                                const yearA = parseInt(a.date.split('/')[0].trim(), 10);
+                                const yearB = parseInt(b.date.split('/')[0].trim(), 10);
+
+                                return yearB - yearA;
+                            })
+                            .map((event) => (
                             <div
                                 key={event.id}
                                 className="relative flex items-start group"
