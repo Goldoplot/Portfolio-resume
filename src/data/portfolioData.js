@@ -135,7 +135,7 @@ export const timelineEvents = [
     },
      {
         id: 4,
-        date: "2018 / 2019",
+        date: "2017 / 2020",
         title: "UrbanAquaFitness",
         type: "work",
         description: "Fitness instructor and personal trainer",
@@ -143,18 +143,8 @@ export const timelineEvents = [
         icon: "🏢",
         color: "bg-purple-500"
     },
-    {
+        {
         id: 5,
-        date: "2019 / 2020",
-        title: "Decathlon",
-        type: "work",
-        description: "Sales associate in a major sports retail chain",
-        details: "Provided customer service, managed inventory, and assisted in visual merchandising. Gained experience in retail operations and developed strong communication and sales skills.",
-        icon: "🚀",
-        color: "bg-red-500"
-    },
-    {
-        id: 6,
         date: "2020 / 2021",
         title: "France Travail",
         type: "work",
@@ -164,7 +154,7 @@ export const timelineEvents = [
         color: "bg-green-500"
     },
     {
-        id: 7,
+        id: 6,
         date: "2022 / 2023",
         title: "Working Holiday Argentina",
         type: "decision",
@@ -174,12 +164,12 @@ export const timelineEvents = [
         color: "bg-indigo-500"
     },
     {
-        id: 8,
-        date: "2023 / 2025",
-        title: "Botanic",
+        id: 7,
+        date: "2024 / 2024",
+        title: "Bouygues",
         type: "work",
-        description: "Junior backend developer at Botanic, building and maintaining server-side applications and APIs",
-        details: "Designed and developed backend features and REST APIs, improving application performance by up to 30%. Fixed critical bugs, ensured data integrity, and optimized database queries. Collaborated with frontend and product teams to deliver scalable solutions, contributing to faster release cycles and improved user experience.",
+        description: "Front-End Developer / Web Integrator",
+        details: "Responsive HTML/CSS development and integration of internal newsletters based on Figma mockups. Ensured optimal display and pixel-perfect rendering across various email clients (Outlook, Gmail, Apple Mail). Collaborated with the marketing team to implement design updates and maintain brand consistency.",
         icon: "🚀",
         color: "bg-red-500"
     }
